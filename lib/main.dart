@@ -7,7 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
@@ -15,9 +15,24 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Seu texto aqui',
-                style: TextStyle(fontSize: 24),
-              ),
+            'Get your Money',
+            style: TextStyle(fontSize: 24,
+            fontWeight: FontWeight.bold),
+          ),
+          Text(
+            'Under Control',
+            style: TextStyle(fontSize: 24,
+            fontWeight: FontWeight.bold),
+          ),
+          Text(
+            'Manage your expenses.'
+          ),
+          Text(
+            'Seamlessly.'
+          ),
+        
+
+          
               // Outros widgets podem ser adicionados aqui
             ],
           ),

@@ -32,12 +32,12 @@ class MyApp extends StatelessWidget {
                 child: Text('Sign Up with Email ID'),
               ),
               SizedBox(height: 20), // Adiciona um espaço entre o texto e o botão
-              ElevatedButton(
-              
+              IconButton(
                 onPressed: () {
                   // Adicione a ação do botão aqui
                 },
-                child: Text('Sign Up with Google'),
+                icon: Image.asset('caminho/para/sua/imagem.png'), // Imagem dentro do botão
+                iconSize: 15, // Tamanho da imagem
               ),
             ],
           ),
